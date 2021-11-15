@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include douara *.css
+recursive-include douara *.csv
+recursive-include douara *.html
+recursive-include douara *.ico
+recursive-include douara *.js
+recursive-include douara *.json
+recursive-include douara *.md
+recursive-include douara *.png
+recursive-include douara *.py
+recursive-include douara *.svg
+recursive-include douara *.txt
+recursive-exclude douara *.pyc

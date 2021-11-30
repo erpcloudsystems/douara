@@ -10,7 +10,7 @@ app_email = "info@erpcloud.systems"
 app_license = "MIT"
 
 doc_events = {
-"ToDo": {
+"Lead": {
 	"after_insert": "douara.permission.share_lead"
 },
 }

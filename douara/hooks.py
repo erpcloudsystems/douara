@@ -11,7 +11,8 @@ app_license = "MIT"
 
 doc_events = {
 "Lead": {
-	"validate": "douara.permission.share_lead"
+	"validate"
+	"": "douara.permission.share_lead"
 },
 }
 

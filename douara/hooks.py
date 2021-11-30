@@ -9,6 +9,12 @@ app_color = "grey"
 app_email = "info@erpcloud.systems"
 app_license = "MIT"
 
+doc_events = {
+"ToDo": {
+	"after_insert": "douara.permission.share_lead"
+},
+}
+
 # Includes in <head>
 # ------------------
 
